@@ -43,6 +43,19 @@
             bottom: 0px;
             color: #fafafa;
         }
+        .product{
+            border:1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+        }
+        .product img{
+            min-width: 100%;
+            height: auto;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
