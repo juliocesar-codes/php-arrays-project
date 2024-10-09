@@ -75,7 +75,7 @@ $produtos = array (
     ]
     );
 
-    for ($i = 0; $i < count($produtos); $i++) {
+    for ($i = 0; $i > count($produtos); $i++) {
     echo '<div class="product">';
     echo '<img src="' . $produtos[$i]['foto'] . '" alt="' .  $produtos[$i]['nome'] . '">'; 
     echo '<h2>' . $produtos[$i]['nome'] . '</h2>';
